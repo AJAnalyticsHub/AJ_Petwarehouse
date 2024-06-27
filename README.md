@@ -10,12 +10,12 @@ It contains tables for customers, pet size, pet type, products, sales and suppli
 
 ## Repository Structure
 
--- **AJ_petwarehouse.xls:** Raw and transformed Excel data.
--- **AJ_PetwarehouseDB.sql:** SQL code to create the database, tables and initial data values for pet size, pet type and products.
--- **AJ_petwarehouse(customers).csv:** Data for the customers table.
--- **AJ_petwarehouse(sales).csv:** Data for the sales table.
--- **AJ_petwarehouse(suppliers).csv:** Data for the suppliers table.
--- **AJ_PetWarehouse(Analytics).sql:** Analytical queries to look at sales trends and identify opportunities for growth.
+- **AJ_petwarehouse.xls:** Raw and transformed Excel data.
+- **AJ_PetwarehouseDB.sql:** SQL code to create the database, tables and initial data values for pet size, pet type and products.
+- **AJ_petwarehouse(customers).csv:** Data for the customers table.
+- **AJ_petwarehouse(sales).csv:** Data for the sales table.
+- **AJ_petwarehouse(suppliers).csv:** Data for the suppliers table.
+- **AJ_PetWarehouse(Analytics).sql:** Analytical queries to look at sales trends and identify opportunities for growth.
 
 ## How to Use
 
