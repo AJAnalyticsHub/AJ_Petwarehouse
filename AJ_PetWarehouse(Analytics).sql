@@ -33,6 +33,14 @@ ON sup.supplier_id = s.supplier_id
 GROUP BY sup.supplier_id
 ORDER BY SUM(s.price) DESC;
 
+SELECT sup.business_name, SUM(s.price) AS total_sales_amount
+FROM suppliers AS sup
+JOIN sales AS s
+ON sup.supplier_id = s.supplier_id
+GROUP BY sup.supplier_id
+ORDER BY SUM(s.price) DESC
+LIMIT 1;
+
 -- -------------------------------------------------------------- --
 -- Which animals should we be targeting in our product expansion? --
 -- -------------------------------------------------------------- --
