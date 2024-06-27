@@ -69,6 +69,7 @@ REFERENCES pet_type(pet_type_id)
 
 -- --------------------------------------------------------------------------------------
 -- -- Original Dataset Had Few Unique Values For Products, Pet Size and Pet Type --------
+-- ----------- So We Can Add These With The Insert Into Syntax --------------------------
 
 INSERT INTO products (product_category) VALUES
 ('Equipment'),
