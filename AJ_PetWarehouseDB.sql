@@ -17,7 +17,9 @@ email VARCHAR(200),
 address VARCHAR(200) NOT NULL,
 city VARCHAR(200) NOT NULL,
 postcode VARCHAR(200) NOT NULL,
-telephone VARCHAR(20)
+telephone VARCHAR(20),
+latitude DEC(5,4) NOT NULL,
+longitude DEC(5,4) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS suppliers(
@@ -69,7 +71,6 @@ REFERENCES pet_type(pet_type_id)
 
 -- --------------------------------------------------------------------------------------
 -- -- Original Dataset Had Few Unique Values For Products, Pet Size and Pet Type --------
--- ----------- So We Can Add These With The Insert Into Syntax --------------------------
 
 INSERT INTO products (product_category) VALUES
 ('Equipment'),
