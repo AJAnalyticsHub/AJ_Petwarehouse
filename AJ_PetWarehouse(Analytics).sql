@@ -14,7 +14,7 @@ LIMIT 5;
 
 -- Top 5 by monetary amount --
 
-SELECT c.business_name, SUM(s.price) AS total_sales_amount
+SELECT c.business_name, SUM(s.price) AS total_revenue_amount
 FROM customers AS c
 JOIN sales AS s
 ON c.customer_id = s.customer_id
@@ -33,7 +33,7 @@ ON sup.supplier_id = s.supplier_id
 GROUP BY sup.supplier_id
 ORDER BY SUM(s.price) DESC;
 
-SELECT sup.business_name, SUM(s.price) AS total_sales_amount
+SELECT sup.business_name, SUM(s.price) AS total_revenue_amount
 FROM suppliers AS sup
 JOIN sales AS s
 ON sup.supplier_id = s.supplier_id
@@ -56,7 +56,7 @@ ORDER BY SUM(s.sales) DESC;
 
 -- by monetary amount --
 
-SELECT p.pet_type, SUM(s.price) AS total_sales_amount
+SELECT p.pet_type, SUM(s.price) AS total_revenue_amount
 FROM pet_type AS p
 JOIN sales AS s
 ON p.pet_type_id = s.pet_type_id
