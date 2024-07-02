@@ -1,10 +1,10 @@
 ![Pet_Warehouse](https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/7d6b78c1-6784-414f-8224-c9b1a528399b)
 
-This repository contains .xls, .csv and .sql files to create and analyse a database for a fictional pet shop supplier.
+This repository contains .xlsx, .csv, .sql and .twbx files to create and analyse a database for a fictional pet shop supplier.
 
 ## Project Overview
 
-AJPetWarehouse is a project from my self-study journey to enhance my data analysis skills using SQL. 
+AJPetWarehouse is a project from my self-study journey to enhance my data analysis skills using SQL and data visualisations using Tableau. 
 The database was created by myself using Pet Store records from [Kaggle](https://www.kaggle.com/datasets/ippudkiippude/pet-store-records-2020). 
 It contains tables for customers, pet size, pet type, products, sales and suppliers.
 
