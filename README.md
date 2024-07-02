@@ -59,7 +59,7 @@ ORDER BY SUM(s.sales) DESC;
 
 The following query shows that cat sales are our most frequent, closely followed by dog sales.
 
-<img width="984" alt="Screenshot 2024-07-02 at 11 19 47" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/6f44a4bd-b67c-4a93-b32e-8a8a7e49f0c8">
+<img width="984" alt="Sales Volume Pie Chart by Pet Type" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/6f44a4bd-b67c-4a93-b32e-8a8a7e49f0c8">
 
 ```
 SELECT p.pet_type, SUM(s.price) AS total_revenue_amount
@@ -72,7 +72,7 @@ ORDER BY SUM(s.price) DESC;
 
 Querying the revenue by each pet category, we can see that dog sales provide the highest revenue, followed closely by cat sales.
 
-<img width="984" alt="Screenshot 2024-07-02 at 11 19 47" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/31827e28-4f23-4993-8894-5d778248165f">
+<img width="984" alt="Revenue Pie Chart by Pet Type" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/31827e28-4f23-4993-8894-5d778248165f">
 
 Cat and dog sales account for the majority of sales and revenue. 
 Therefore, my recommendations for product expansions are:
@@ -101,7 +101,7 @@ ORDER BY total_sales_amount DESC;
 
 In this query i decided to focus on solely sales volume to focus on the storage aspect for the business. As we can see our biggest seller is small dog clothing. Sales totaling over 500 units are found in medium, large and extra large cat and extra large dog. Small cat had a sales volume that significantly deviates from other options.
 
-<img width="945" alt="Screenshot 2024-07-02 at 14 56 00" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/e2b40b44-a412-448d-9cb2-decabd9b0aec">
+<img width="945" alt="Bar Chart Comparing the Clothing Sales Volume of Different Sizes of Cats and Dogs " src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/e2b40b44-a412-448d-9cb2-decabd9b0aec">
 
 Recommendations for our clothing line would be:
 
@@ -117,25 +117,25 @@ Recommendations for our clothing line would be:
 
 1. Sales Map:
 
-<img width="1125" alt="Screenshot 2024-07-02 at 16 13 16" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/d20a4fdd-751b-4722-a377-b73e150f1405">
+<img width="1125" alt="Sales Map" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/d20a4fdd-751b-4722-a377-b73e150f1405">
    
-3. Distribution of Sales by Product Category:
+2. Distribution of Sales by Product Category:
 
-<img width="1040" alt="Screenshot 2024-07-02 at 16 14 45" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/1fc90f67-6255-405e-a292-66998a59facd">
+<img width="1040" alt="Distribution of Sales by Product Category" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/1fc90f67-6255-405e-a292-66998a59facd">
 
-4. Product Sales Volume:
+3. Product Sales Volume:
 
-<img width="1123" alt="Screenshot 2024-07-02 at 16 15 26" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/2eb37257-0476-47db-891d-05851ca5adfd">
+<img width="1123" alt="Product Sales Volume" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/2eb37257-0476-47db-891d-05851ca5adfd">
 
-6. Top 5 Customers by Sales Volume:
+4. Top 5 Customers by Sales Volume:
 
-<img width="1122" alt="Screenshot 2024-07-02 at 16 16 10" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/b646f2b5-efcd-4772-baea-3dcfc877e96d">
+<img width="1122" alt="Top 5 Customers by Sales Volume" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/b646f2b5-efcd-4772-baea-3dcfc877e96d">
 
-8. Pet Sales Volume:
+5. Pet Sales Volume:
 
-<img width="1122" alt="Screenshot 2024-07-02 at 16 17 20" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/b2fe4f21-6412-4615-8ff6-70c4216f496b">
+<img width="1122" alt="Pet Sales Volume" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/b2fe4f21-6412-4615-8ff6-70c4216f496b">
 
 6.Top 3 Average Pet Sales by Product Category:
 
-<img width="1122" alt="Screenshot 2024-07-02 at 16 18 24" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/36596704-3301-48bb-8826-eab22e1a016a">
+<img width="1122" alt="Top 3 Average Pet Sales by Product Category" src="https://github.com/AJAnalyticsHub/AJ_Petwarehouse/assets/168544313/36596704-3301-48bb-8826-eab22e1a016a">
 
